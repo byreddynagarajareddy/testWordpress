@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Elemento Restaurant
+ Theme URI:    https://greenturtlelab.com/downloads/elemento-restaurant
+ Author: Greenturtlelab
+ Author URI: http://greenturtlelab.com
+ Text Domain: elemento-restaurant
+ Template: elemento
+ Description:  Elemento  Restaurant is a gutenberg compatible child theme of the stunning Elemento theme. is a multi-purpose theme that  is perfect for building any type of site that requires bold imagery and beautiful photo galleries. It is perfect for professional photographers, photo bloggers, travel websites, portfolio websites, business websites or any or website where your galleries and images need to impress visitors. Large, bold images will have your site visitors in awe and an included parallax pre-made template will add visual interest to your home and landing pages. The responsive layout is optimized for all devices. It’s a fast, SEO-friendly that plays nicely with Elementor and all other visual builders.
+ Tags: blog, one-column, two-columns, left-sidebar, right-sidebar, custom-header, custom-background, custom-logo, custom-menu, custom-colors, flexible-header, threaded-comments, translation-ready, featured-images, theme-options, full-width-template, photography, portfolio
+ Version: 1.0.8
+ Requires at least: 5.4
+ Tested up to: 5.6
+ Requires PHP: 7.0
+ License: GNU General Public License v2 or later
+ License URI: http://www.gnu.org/licenses/gpl-2.0.html
+ */
+
+.aGrid h2{
+	text-align: center;
+}
+.post-grid-view .post-wrap {
+    width: 33%;
+ }
+ .button{
+ 	text-align: center;
+    border: 2px solid red;
+ }
+ .article-wrap .article-img-wrap {
+    min-height: 150px;
+}
+#call-action{
+margin-bottom: 20px;
+}
+.content-all {
+    padding: 20px 0;
+    background: white;
+}
+#footer{
+	padding-top:20px
+}
+#footer h2 {
+    font-size: 30px;
+}
+
+.main-menu .nav li {
+    display: inline-block;
+}
+#content a, .textwidget a, .comment-content a{
+text-decoration: underline;
+}
